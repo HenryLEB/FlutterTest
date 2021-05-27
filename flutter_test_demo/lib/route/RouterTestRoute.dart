@@ -14,7 +14,7 @@ class RouterTestRouter extends StatelessWidget {
           child: Center(
             child: IconButton(
               icon: Icon(Icons.home), onPressed: () {
-
+                Navigator.pushNamed(context, "/helloWorld");
             },
             ),
           ),

@@ -4,7 +4,7 @@ import 'package:flutter_test_demo/route/RouterTestRoute.dart';
 import 'package:flutter_test_demo/route/Routes.dart';
 import 'package:flutter_test_demo/route/TipRoute.dart';
 import 'route/NewRoute.dart';
-
+import 'package:english_words/english_words.dart';
 void main() {
   runApp(MyApp());
 }
@@ -63,7 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             TextButton(
-              child: Text("open new route"),
+              // child: Text("open new route"),
+              child: Text(generateWordPairs().take(1).toString()),
               onPressed: () {
                // Navigator.push(context,
                //   MaterialPageRoute(builder: (context) {
@@ -81,7 +82,6 @@ class _MyHomePageState extends State<MyHomePage> {
                    })
                   );
                   // Navigator.pushNamed(context, "/RouterTestRoute");
-
                 },
                 child: Text("消息页面"))
           ],
