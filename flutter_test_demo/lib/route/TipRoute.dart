@@ -8,7 +8,7 @@ class TipRoute extends StatelessWidget {
 
   // TipRoute({
   //   required this.text,  // 接收一个text参数
-  // });
+  // }); 是
 
   @override
   Widget build(BuildContext context) {
