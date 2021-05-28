@@ -83,7 +83,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                   // Navigator.pushNamed(context, "/RouterTestRoute");
                 },
-                child: Text("消息页面"))
+                child: Text("消息页面")
+            ),
+            TextButton(
+                onPressed: () {
+                  debugDumpApp();
+                  // Navigator.pushNamed(context, "/RouterTestRoute");
+                },
+                child: Text("Dump App"))
           ],
         ),
       ),

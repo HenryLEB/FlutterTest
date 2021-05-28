@@ -8,7 +8,13 @@ class HelloWorld extends StatelessWidget {
 
     // return Rou;
     return Center(
-      child: Text("HelloWorld"),
-    );
+      // child: DecoratedBox(
+      //   decoration: BoxDecoration(
+      //     image: DecorationImage(
+      //       image: AssetImage("images/love.png")
+      //     )
+      //   ),
+        child: Image.asset('assets/love.png'),
+      );
   }
 }

@@ -1,0 +1,68 @@
+{
+  "Platforms": [
+    {
+      "name": "Sensonrs",
+      "className": "com.rapid.platforms.sensors.SensorsSDK",
+      "serverUrl": "xxxxxxxxxxxxxxxx",
+      "options": {
+        "netWorkType": 1,
+        "autoTrackEventType": 1,
+        "isSupportJellyBean": true,
+        "enableVisualizedAutoTrack": true,
+        "trackFragmentAppViewScreen": true,
+        "enableTrackPush": true,
+        "enableHeatMap": true,
+        "enableEncrypt": true,
+        "enableAutoAddChannelCallbackEvent": true,
+        "maxCacheSize": 32,
+        "flushInterval": 5,
+        "flushBulkSize": 50,
+        "enableTrackAppCrash": true,
+        "trackScreenOrientationEnabled": true
+      }
+    },
+    {
+      "name": "UMeng",
+      "className": "com.rapid.platforms.umeng.UMengSDK",
+      "appKey": "605aeda86ee47d382b93cdad",
+      "channel": "demo",
+      "options": {
+        "setProcessEvent": true,
+        "pageCollectionModeXXX": 4
+      }
+    },
+    {
+      "name": "AppsFlyer",
+      "className": "com.rapid.platforms.appsflyer.AppsFlyerSDK",
+      "afDevKey": "xxxxxxxxx",
+      "options": {
+        "isCollectAndroidID": true,
+        "isCollectIMEI": true,
+        "isAnonymizeUser": true,
+        "minTimeBetweenSessions": -1
+      }
+    },
+    {
+      "name": "Adjust",
+      "className": "com.rapid.platforms.adjust.AdjustSDK",
+      "appToken": "{YourAppToken}",
+      "options": {
+        "delayStart": -1,
+        "preInstallTrackingEnabled": true,
+        "defaultTracker": "true",
+        "eventBufferingEnabled": true,
+        "sendInBackground": true
+      }
+    },
+    {
+      "name": "TrackingIO",
+      "className": "com.rapid.platforms.trackingio.TrackingIOSDK",
+      "appKey": "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "channelId": "xxxxxxxx"
+    },
+    {
+      "name": "GeTui",
+      "className": "com.rapid.platforms.getui.GeTuiSDK"
+    }
+  ]
+}
